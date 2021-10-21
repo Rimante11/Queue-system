@@ -1,0 +1,102 @@
+
+@import 
+url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+
+body{
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #ecf0f3;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  place-items: center;
+  overflow: hidden;
+  font-family: poppins;
+}
+
+.element{
+  position: relative;
+  width: 600px; /* text bred att knapper kommer inte under varanadra*/
+  height: 500px; /* lyftar upp hella content*/
+  border-radius: 20px;
+  padding: 5px;
+  box-sizing: border-box;
+  background: #ecf0f3;
+  box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+}
+
+.brand-logo{
+  width: 10%;
+  height: 20%;
+}
+
+.brand-title{
+  margin-top: 10px;
+  font-weight: 900;
+  font-size: 1.8rem;
+  color: #434f53;
+  letter-spacing: 1px;
+  height: 10px;
+  letter-spacing: 1px;
+  text-shadow: 0 13.36px 8.896px #c4b59d,0 -2px 1px #fff;
+  
+}
+
+.inputWindow{
+  text-align: left;
+  margin-top: 20px;
+  background: #ecf0f3;
+  height: 30px;
+  padding: 0px;
+  padding-left: 10px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  box-shadow: inset 4px 4px 4px #cbced1, inset -4px -4px 4px white;
+}
+
+.addB{
+  background: #ecf0f3;
+  height: 30px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer; /* googla vad den gör exakt*/
+  font-weight: 900;
+  box-shadow: 4px 4px 4px #cbced1, -4px -4px 4px white;
+  transition: 0.5s;
+  color: #434f53;
+  letter-spacing: 0.5px;  
+}
+.vipB{
+  background: #ecf0f3;
+  height: 30px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer; /* googla vad den gör exakt*/
+  font-weight: 900;
+  box-shadow: 4px 4px 4px #cbced1, -4px -4px 4px white;
+  transition: 0.5s;
+  color: #434f53;
+  letter-spacing: 0.5px;
+}
+.removeB{
+  background: #ecf0f3;
+  height: 30px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer; /* googla vad den gör exakt*/
+  font-weight: 900;
+  box-shadow: 4px 4px 4px #cbced1, -4px -4px 4px white;
+  transition: 0.5s;
+  color: #434f53;
+  letter-spacing: 0.5px;
+}
+
+.listElm{
+  color: #434f53;
+  padding: 10px;
+  padding-left: 100px;
+  padding-right: 400px;
+}
